@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="profile.css">
+    
+</head>
+<body>
+    <div class="card">
+        <img src="profile.png" alt="Profile Picture" class="profile-img" data-testid="profilePicture">
+        <h2 data-testid="fullName">Erick Ochieng</h2>
+        <h4 data-testid="jobTitle">Full-Stack Developer</h4>
+        <p data-testid="shortBio">A passionate developer eager to create stunning web applications.</p>
+        <p data-testid="currentLocation">Kisumu, Kenya</p>
+        <p data-testid="emailAddress">erickochieng830@gmail.com</p>
+        <div data-testid="socialLinks">
+            <a href="#" class="social-button linkedin">LinkedIn</a>
+            <a href="#" class="social-button github">GitHub</a>
+            <a href="#" class="social-button twitter">Twitter</a>
+        </div>
+        <p data-testid="currentTimeUTC" id="utc-time"></p>
+    </div>
+
+    <script src="profile.js"></script>
+</body>
+</html>
